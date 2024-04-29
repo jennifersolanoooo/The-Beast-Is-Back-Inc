@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Contene {
+    display: flex;
+    justify-center
+}
+nav ul {
+    background-color: white;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+text-decoration: none;
+color: black;
+padding: 40px;
+font-family: "Concert One", sans-serif;
+}
+nav il:hover {
+background-color:   #C4A03F;
+}
+.IMAGENES {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: black;
+    padding: 80px 0;
+}
+h4 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
